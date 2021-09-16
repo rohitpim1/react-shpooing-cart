@@ -1,9 +1,14 @@
+//feature-1
 import React from 'react'
 
  const App = () => {
   return (
-    <div>
-      App
+    <div className="grid-container">
+      <header>
+        <a href="/">React shopping cart</a>
+      </header>
+      <main>Product List</main>
+      <footer>All right is reserved.</footer>
     </div>
   )
 }
