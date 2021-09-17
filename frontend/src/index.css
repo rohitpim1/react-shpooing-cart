@@ -16,6 +16,12 @@ body,input,select,button,textarea{
 
 .grid-container{
   display: grid;
+  font-size: 16rem;
+}
+
+.grid-container{
+  display: grid;
+
   grid-template-areas: 
   "header"
   "main"
@@ -57,6 +63,10 @@ footer{
   background-color: #203040;
   color: #ffffff;
  display: flex;
+
  justify-content: center;
+ align-items: center
+}
+ justify-content: space-between;
  align-items: center
 }
